@@ -1,4 +1,6 @@
 #!/bin/bash
 set -xe
 
-echo "TODO"
+git submodule update --init --recursive
+npm run test
+npm run test-spec
